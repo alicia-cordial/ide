@@ -1,0 +1,134 @@
+body
+{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+header {
+  box-sizing: border-box;
+  position: relative;   
+  display: flex;
+  align-self: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+nav li {
+  font-family: monospace;
+}
+
+a
+{
+    color: hotpink;
+}
+
+a:hover
+{
+    color: chartreuse;
+}
+
+h1
+{
+    display: flex;
+    align-self: center;
+}
+
+img
+{
+    border-radius: 20px;
+    margin: 5px;        
+}
+
+
+/*CLASS*/
+
+.head
+{
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    background-color: deeppink;
+}
+
+.ides
+{
+    display: flex;
+    flex-grow: 5;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+
+}
+
+.ide1
+{
+    width: 450px;
+    height: 480px;
+	padding: 50px;
+	font-size: 12px;
+	border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    text-align: center;
+}
+
+.ide2
+{
+     width: 450px;
+    height: 480px;
+	padding: 50px;
+	font-size: 12px;
+	border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  background-color: aquamarine;
+   
+}
+
+.ide3
+{
+     width: 450px;
+    height: 480px;
+	padding: 50px;
+	font-size: 12px;
+	border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.images
+{
+    display: flex;
+    flex-grow: 4;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+
+/*ID*/
+
+#listeNavTop {
+  font-family: 'Piazzolla', serif;
+  border-radius: 25px;
+  position: fixed;
+  top:0;
+}
