@@ -30,6 +30,9 @@ li {
 
 nav li {
   font-family: 'Peddana', serif;
+     background-color: black;
+    padding: 25px;
+    text-decoration: overline;
 }
 
 a
@@ -37,21 +40,18 @@ a
     color: hotpink;
     font-size: 1.3em;
     text-decoration: none;
-    width: 100px;
-    height: 100px;
-    transition: width 2s
+    
 }
 
 a:hover
 {
     color: chartreuse;
-    width: 300px;
 }
 
 h1
 {
     display: flex;
-    align-self: center;
+    align-self: left;
     font-size: 3em;
     color: white;
     font-family: 'Roboto Mono', monospace;

@@ -5,7 +5,7 @@ body
     display: flex;
     flex-direction: column;
     align-content: space-around;
-     background-color: #eee;
+     background-image: url(image/etoiles.jpg);
 }
 
 
@@ -46,7 +46,7 @@ a
 a:hover
 {
     color: chartreuse;
-    width: 300px;
+    width: 1000px;
 }
 
 
@@ -68,14 +68,14 @@ h2
     text-shadow: 1px 1px 1px black;
 }
 
+
 p
 {
-     display: flex;
+      display: flex;
     font-size: 1.2em;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
-
 
 footer
 {
@@ -120,8 +120,11 @@ footer
     display: block;
 }
 
+.texte
+{
 
-
+    background-color: rgb(255, 105, 180, 0.9) ;
+}
 /*ID*/
 
 #listeNavTop {
