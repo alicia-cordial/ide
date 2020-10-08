@@ -5,6 +5,7 @@ body
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    
 }
 
 header {
@@ -28,12 +29,14 @@ li {
 }
 
 nav li {
-  font-family: monospace;
+  font-family: 'Peddana', serif;
 }
 
 a
 {
     color: hotpink;
+    font-size: 1.3em;
+    text-decoration: none;
 }
 
 a:hover
@@ -45,14 +48,49 @@ h1
 {
     display: flex;
     align-self: center;
+    font-size: 3em;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
 }
 
-img
+h2
 {
-    border-radius: 20px;
-    margin: 5px;        
+     display: flex;
+    align-self: center;
+    font-size: 2.6em;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
 }
 
+h3
+{
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 2em;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+h4
+{
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 1.8em;
+    color: white;
+}
+
+p
+{
+    font-size: 2em;
+    font-family: 'Piazzolla', serif;
+    color: white;
+}
+
+footer
+{
+    color: white;
+    background-color: black;
+    padding: 25px;
+}
 
 /*CLASS*/
 
@@ -61,7 +99,7 @@ img
     display: flex;
     flex-grow: 2;
     flex-direction: column;
-    background-color: deeppink;
+    background-color:#2F103B;
 }
 
 .ides
@@ -70,8 +108,8 @@ img
     flex-grow: 5;
     flex-direction: row;
     justify-content: space-around;
-    background-color: white;
-
+    background-color: black;
+    margin: 2px black;
 }
 
 .ide1
@@ -80,11 +118,12 @@ img
     height: 480px;
 	padding: 50px;
 	font-size: 12px;
-	border-radius: 25px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background: linear-gradient(#38024D, #A457BF) ;
+    margin: 2px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .ide2
@@ -93,12 +132,12 @@ img
     height: 480px;
 	padding: 50px;
 	font-size: 12px;
-	border-radius: 25px;
     display: flex;
     flex-direction: column;
     text-align: center;
-  background-color: aquamarine;
-   
+    background: linear-gradient(#38024D, #A457BF) ;
+    margin: 2px;
+    border-radius:5px;
 }
 
 .ide3
@@ -107,11 +146,13 @@ img
     height: 480px;
 	padding: 50px;
 	font-size: 12px;
-	border-radius: 25px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: greenyellow;
+    background: linear-gradient(#38024D, #A457BF) ;
+    margin: 2px;
+    border-radius:5px;
+   
 }
 
 .images
@@ -127,7 +168,7 @@ img
 /*ID*/
 
 #listeNavTop {
-  font-family: 'Piazzolla', serif;
+  font-family: 'Peddana', serif;
   border-radius: 25px;
   position: fixed;
   top:0;
