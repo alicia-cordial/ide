@@ -37,11 +37,15 @@ a
     color: hotpink;
     font-size: 1.3em;
     text-decoration: none;
+    width: 100px;
+    height: 100px;
+    transition: width 2s
 }
 
 a:hover
 {
     color: chartreuse;
+    width: 300px;
 }
 
 h1
