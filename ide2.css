@@ -13,7 +13,7 @@ header {
   box-sizing: border-box;
   position: relative;   
   display: flex;
-  align-self: center;
+  align-self: left;
 }
 
 ul {
@@ -26,7 +26,6 @@ ul {
 li {
   margin-left: 10px;
   margin-right: 10px;
-  text-align: right;
 }
 
 nav li {
