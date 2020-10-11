@@ -76,6 +76,10 @@ h2
     text-shadow: 1px 1px 1px black;
 }
 
+h3
+{
+    font-size: 2.6em;
+}
 p
 {
      display: flex;
@@ -117,6 +121,32 @@ footer
    margin-bottom: 10px;
 
 }
+
+.column
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    margin: 2px black;
+    margin: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.column1, .column2, .column3
+{
+   
+	padding: 50px;
+	font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2px;
+    
+}
+
 /*ID*/
 
 #listeNavTop {

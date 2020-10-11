@@ -105,6 +105,7 @@ footer
 {
     background-color: black;
     color: white;
+    height:100vh;
     
 }
 
@@ -126,7 +127,8 @@ footer
 .imgintro
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .column
 {
